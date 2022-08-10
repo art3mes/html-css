@@ -1,0 +1,108 @@
+
+                p{
+                    font-family: Arial;
+                    margin: 0;
+                }
+                .head{
+                    font-weight: bolder;
+                    margin-bottom:5px;
+
+                }
+                .head_{
+                    color:grey;
+                    margin-bottom: 18px;
+                }
+                .pa{
+                    margin-bottom: 15px;
+                    width: 250px;
+                }
+                .start{
+                    background-color: rgb(38, 139, 67);
+                    color:white;
+                    font-size: 12px;
+                    border:none;
+                    height: 28px;
+                    width: 100px;
+                    border-radius: 5px;
+                    
+                    
+                }
+          
+                .new{
+                    text-align: center;
+                    color:orange;
+                    font-weight: bold;
+                    font-size: 9px;
+                    margin-bottom: 6px;
+                }
+                .pro{
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 15px;
+                    
+                }
+                .sup{
+                    margin-bottom: 7px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+                .cost{
+                    text-align: center;
+                    color:grey;
+                    font-size: 11px;
+                    margin-bottom: 10px;
+
+                }
+                .buy{
+                    background-color:blueviolet;
+                    color:white;
+                    font-weight: bold;
+                    font-size: 12px;
+                    border:none;
+                    height: 27px;
+                    width: 45px;
+                    border-radius: 18px;
+                    margin-left: 360px;
+                }
+           
+                .one{
+                    font-size: 30px;
+                    font-weight: bold;
+                    margin-bottom: 6px;
+                }
+                .us{
+                    font-weight: 1;
+                    font-size: 15px;
+                    color: grey;
+                }
+                .two{
+                    color: green;
+                    margin-bottom: 6px;
+                }
+                .third{
+                    color: grey;
+
+                }
+                .rede{
+                    color: red;
+                }
+           
+                .free{
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+                .code{
+                    color: grey;
+                    font-weight: 1;
+                    margin-left: 5px;
+                }
+                .mid{
+                    width: 500px;
+                    font-size: 16px;
+                    margin-bottom: 25px;
+                }
+                .it{
+                    color: rgb(58, 152, 210);
+                }
+    
