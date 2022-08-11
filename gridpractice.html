@@ -3,35 +3,59 @@
     <head>
         <title>
             GRIDE
+            
         </title>
+        <style>
+            .rowsw{
+                margin-top:30px;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+            }
+        </style>
+    </head>
         <body>
             <div style="
             display:grid;
-            grid-template-columns: 100px 100px; 
+            grid-template-columns: 200px 75px; 
             ">
-                <div style="background-color: rgb(36, 129, 186);">1f</div>
-                <div style="background-color: red;">100px<p>ok</p></div>
+                <div style="background-color: rgb(36, 129, 186);">200px</div>
+                <div style="background-color: red;">75px</div>
             </div>
 
+            
             <div style="
             margin-top:30px;
             display:grid;
-            grid-template-columns: 100px 100px 200px; 
+            grid-template-columns: 50px 1fr 75px ; 
             ">
-                <div style="background-color: rgb(36, 129, 186);">100px</div>
-                <div style="background-color: red;">100px<p>ok</p></div>
-                <div style="background-color: rgb(36, 129, 186);">200px</div>
-                <div style="background-color: rgb(36, 129, 186);">100px</div>
-            </div>
-            <div style="
-            margin-top:30px;
-            display:grid;
-            grid-template-columns: 1fr 1fr ; 
-            ">
-                <div style="background-color: rgb(36, 129, 186);">1fr</div>
-                <div style="background-color: red;">1fr</div>
+                <div style="background-color: rgb(36, 129, 186);">col1</div>
+                <div style="background-color: red;">col2</div>
+                <div style="background-color: pink;">col3</div>
                 
             </div>
+
+            <div class="rowsw">
+                
+            
+                <div style="background-color: rgb(36, 129, 186);">col1</div>
+                <div style="background-color: lightgreen;">col2</div>
+                <div style="background-color: skyblue;">col3</div>
+                <div style="background-color: grey;">col4</div>
+
+            
+                <div style="background-color: lightgreen;">col5</div>
+                <div style="background-color: skyblue;">col6</div>
+                <div style="background-color: grey;">col7</div>
+                <div style="background-color: rgb(36, 129, 186);">col8</div>
+            
+
+                
+
+            </div>
+
+
         </body>
     </head>
 </html>
