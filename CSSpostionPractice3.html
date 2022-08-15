@@ -4,13 +4,11 @@
         <title>ABSOLUTE</title>
         
         <style>
-            .button-container{
-                position: relative;
-            }
+         
             .button-position{
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: -15px;
+                left: -15px;
             }
             .b1{
                 background-color: black;
@@ -32,14 +30,33 @@
                 width: 200px;
                 height: 120px;
             }
+            .duration{
+                position: absolute;
+                bottom: 5px;
+                right: 6px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                background-color: black;
+                padding-right: 5px;
+                padding-left: 5px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                border-radius: 5px;
+            }
         </style>
     </head>
     <body style="padding-bottom: 1000px;">
 
-        <div class="button-container">
+        
+        
+
+        <div class="grey-block">
+            
             <div class="button-position"><button class="b1">X</button></div>
+            <div Class="duration">10:12</div>
+        
         </div>
 
-        <div class="grey-block"></div>
     </body>
 </html>
