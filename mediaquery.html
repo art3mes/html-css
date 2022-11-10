@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            *{
+                background-color: black;
+            }
+            h1{
+                font-size: 20px;
+                color: antiquewhite;
+            }
+            h2{
+                font-size: 20px;
+                color: blueviolet;
+                
+            }
+
+            @media (max-width:900px)
+            {
+                h1{
+                    color: red;
+                    font-size: 50px;
+                }
+            }
+
+            @media (min-width:900px) and (max-width:1200px)
+            {
+                h2{
+                    color: chartreuse;
+                    transform: rotate(-90deg);
+                    font-size: 50px;
+                }
+            }
+           
+        </style>
+    </head>
+    <body>
+        <h1>will turn red if screen smaller or equal to 900px<br>and will become big</h1>
+        <h2>magic happens between 1200px and 900px</h2>
+    </body>
+</html>
